@@ -1,0 +1,6 @@
+@include('template.header')
+@include('template.logo')
+@include('template.navbar')
+@include($isi)
+@include('komentar')
+@include('template.footer')
