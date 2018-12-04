@@ -1,0 +1,43 @@
+.admin a{
+	text-decoration:none;
+	font-size:16pt;
+	color:red;
+}
+
+.admin a:hover{
+	text-decoration:none;
+	color:green;
+}
+
+.admin a:active{
+	color:blue;
+}
+
+.daftar_menu{
+	margin:0px;
+	padding:0px;
+}
+.daftar_menu li{
+	list-style:none;
+}
+
+:before{
+	position:inline-block;
+	color:blue;
+}
+
+.iconmenu:before{
+	content:"\1F4D8";
+}
+
+.icongroup:before{
+	content:"\1F46A";
+}
+
+.iconkategori:before{
+	content:"\1F4DC";
+}
+
+.icontest:before{
+	content:"\1F4DD";
+}

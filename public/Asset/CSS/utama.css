@@ -1,0 +1,235 @@
+.penghalang{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:RGBA(127, 127, 127, 0.5);
+	display:none;
+}
+
+#menu{
+	position:absolute;
+	left:40%;
+	right:40%;
+	top:40%;
+	bottom:40%;
+	background:red;
+	min-width:25%;
+	min-height:25%;
+}
+
+#gambar{
+	position:absolute;
+	left:20%;
+	right:20%;
+	top:20%;
+	bottom:20%;
+	background:red;
+	min-width:25%;
+	min-height:25%;
+	overflow:auto;
+}
+
+.kolom{
+	display:inline-block;
+	margin:2px;
+}
+
+ul.menu{
+	position:relative;
+	left:0px;
+	clear:both;
+	margin:0px auto;
+	padding:0px 2px;
+}
+
+ul.menu li{
+	display:inline;
+	margin:0;
+	padding:0;
+	position:relative;
+	float:left;
+	list-style:none;
+	border-top:1px solid #c4dbe7;
+	border-bottom:2px solid #c4dbe7;
+}
+
+ul.menu > li:last-child a{
+	border-right:1px solid #C2C2C2;
+}
+
+ul.menu li a{
+	padding:2px;
+	background: #f5f5f5;
+	border-right:1px solid #ffffff;
+	border-left:1px solid #C2C2C2;
+	display:inline-block;
+	color:blue;
+	text-decoration:none;
+	user-select:none;
+}
+
+ul.menu li a:visited{
+	color:blue;
+}
+
+ul.menu li a:hover{
+	color:red;
+}
+
+ul.menu li a:active{
+	color:green;
+}
+
+ul.menu li ul{
+	display:none;
+}
+
+ul.menu li:hover ul{
+	left:0px;
+	margin:2px auto;
+	padding:0px;
+	clear:both;
+	display:block;
+	position: absolute;
+	width:180px;
+	z-index:99;
+	-webkit-transition:color 0.2s linear, background 0.2s linear;
+	-moz-transition:color 0.2s linear, background 0.2s linear;
+	-o-transition:color 0.2s linear, background 0.2s linear;
+	transition:color 0.2s linear, background 0.2s linear;
+}
+
+ul.menu ul li a{
+	float:left;
+	clear:both;
+	width:150px;
+	border-right:1px solid #C2C2C2;
+}
+
+.sidebar li{
+	list-style-position: outside;
+}
+
+.daftar{
+	background:gray;
+}
+
+.daftar div{
+	padding:auto 2px;
+}
+
+.daftar div:nth-child(even){
+	background:white;
+}
+
+.thumbnail{
+	width:256px;
+	height:auto;
+}
+
+.container{
+	display:block;
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+.tombol{
+	background-color: #3498DB;
+	color: white;
+	padding: 4px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	min-width:80px;
+}
+
+.tombol:hover, .tombol:focus {
+	background-color: #2980B9;
+}
+
+.dropdown_menu {
+	position: relative;
+	display:inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 120px;
+	min-height: 96px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 8px 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd
+}
+
+.kotak_warna{
+	margin:0px;
+	display:inline-block;
+	float:left;
+	width:24px;
+	height:24px;
+}
+
+.tampilkan {
+	display:block;
+}
+
+
+ul.my_tree{
+	padding:0px;
+	margin:auto 8px;
+}
+
+ul.my_tree > li {
+	list-style-type:none;
+}
+
+ul.my_tree > li span{
+	cursor: pointer;
+	user-select: none;
+}
+
+ul.my_tree > li span::before{
+	content:"\25B6";
+	display:inline-block;
+	color:blue;
+}
+
+.nested{
+	display:none;
+}
+
+.tampil{
+	display:block;
+}
+
+.transformasi::before{
+	transform:rotate(90deg);
+}
+
+.formku{
+	position:relative;
+	margin:auto;
+	padding:8px 2px;
+	border:1px solid blue;
+	background:RGBA(127, 155, 127, 0.5);
+	color:red;
+}
+
+.teks{
+	width:94%;
+}
